@@ -1,0 +1,56 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;  
+  display: grid;
+}
+
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.6rem;
+  background-color: antiquewhite;
+}
+
+ul{
+  color: black;
+  background-color: rgb(226, 113, 43);
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+}
+
+img{
+  max-width: 50%;
+  border: 3px;color: black;
+  image-orientation: from-image;
+}
+
+.contenedor{
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+iframe{
+  align-items: center;
+  max-width: 95%;
+  border: 3px;
+  border-color: black;
+}
+
+footer{
+  background-color: brown;
+  color: antiquewhite;
+}
