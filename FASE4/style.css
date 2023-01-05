@@ -19,6 +19,28 @@ body{
   background-color: antiquewhite;
 }
 
+header{
+  display: grid;
+  grid-area: auto auto;
+  color: burlywood;
+
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.nav li a {
+  background-color:rgb(226, 113, 43)
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav li ul {
+  display: none;
+}
+
 .grid-layout{
   display: grid;
   grid-area: auto auto;
